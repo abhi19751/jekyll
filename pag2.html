@@ -1,0 +1,11 @@
+---
+layout: default
+lang: en  # Change this for different languages
+page_id: page2
+permalink: /{{ lang }}/page1/
+---
+
+{% assign page_content = site.data.pages[page.lang][page.page_id] %}
+
+<h1>{{ page_content.title }}</h1>
+<p>{{ page_content.content }}</p>
