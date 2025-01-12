@@ -1,0 +1,19 @@
+title: "My Multilingual Site"
+baseurl: ""
+permalink: pretty
+
+languages:
+  - code: en
+    name: "English"
+  - code: fr
+    name: "Français"
+  - code: other
+    name: "Other"
+
+pages:
+  - id: "page1"
+    title: "Page 1"
+  - id: "page2"
+    title: "Page 2"
+  - id: "page3"
+    title: "Page 3"
