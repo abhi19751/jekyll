@@ -1,0 +1,23 @@
+en:
+  page1:
+    title: "Welcome to Page 1"
+    content: "This is the English version of Page 1."
+  page2:
+    title: "Welcome to Page 2"
+    content: "This is the English version of Page 2."
+
+fr:
+  page1:
+    title: "Bienvenue sur la page 1"
+    content: "Ceci est la version française de la page 1."
+  page2:
+    title: "Bienvenue sur la page 2"
+    content: "Ceci est la version française de la page 2."
+
+other:
+  page1:
+    title: "Other Language - Page 1"
+    content: "This is the other language version of Page 1."
+  page2:
+    title: "Other Language - Page 2"
+    content: "This is the other language version of Page 2."
