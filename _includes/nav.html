@@ -1,0 +1,10 @@
+<nav>
+  {% for lang in site.languages %}
+    <a href="/{{ lang.code }}/">{{ lang.name }}</a>
+  {% endfor %}
+  <ul>
+    {% for page in site.pages %}
+      <li><a href="/{{ page.lang }}/{{ page.id }}/">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
